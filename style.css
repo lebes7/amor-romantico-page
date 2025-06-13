@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #7f00ff, #e100ff, #f5d142);
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.musica {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.foto-central img {
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 0 20px #ff69b4;
+}
+.foto-central h1 {
+  font-size: 2.5rem;
+  color: #ffccff;
+}
+
+.contador {
+  margin: 40px 0;
+}
+.tempo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.tempo div {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.galeria {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+}
+.galeria img {
+  border-radius: 8px;
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.mensagem {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  font-style: italic;
+}
