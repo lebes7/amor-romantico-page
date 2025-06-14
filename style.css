@@ -8,11 +8,12 @@ body {
 }
 
 .musica {
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 12px;
-  margin: 20px;
-  backdrop-filter: blur(10px);
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .foto-central img {
