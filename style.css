@@ -16,14 +16,22 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.foto-central img {
-  border-radius: 12px;
-  width: 200px;
-  box-shadow: 0 0 20px #ff69b4;
+.foto-central {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #ff4ec7, #a167ff);
+  box-shadow: 0 0 25px #ff4ec7;
+  margin: 30px auto;
+  transition: all 0.3s ease;
 }
-.foto-central h1 {
-  font-size: 2.5rem;
-  color: #ffccff;
+
+.foto-central img {
+  display: block;
+  border-radius: 12px;
+  width: 250px;
+  height: auto;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
 }
 
 .contador {
